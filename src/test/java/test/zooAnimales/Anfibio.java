@@ -9,7 +9,7 @@ public class Anfibio extends Animal{
 	public static int salamandras=0;
 	private String colorPiel;
 	private boolean venenoso;
-	private static int numAnfi=0;
+	private static int numAnfi=1;
 	
 	public Anfibio(String nombre, int edad,String habitat, String genero, String color,boolean veneno) {
 		this.colorPiel=color;
