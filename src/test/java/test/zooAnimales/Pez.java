@@ -44,6 +44,7 @@ public class Pez extends Animal{
 		
 	}
 	public static int cantidadPeces() {
+		numPez = numPez + 1
 		return numPez;
 	}
 	public String getColorEscamas() {
