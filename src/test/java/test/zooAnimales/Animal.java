@@ -26,13 +26,11 @@ public class Animal {
 		return "Mi nombre es " +Animal.this.getNombre()+", tengo una edad de "+ Animal.this.getEdad()+", habito en "+Animal.this.getHabitat() +" y mi genero es "+Animal.this.getGenero();
 	}
 	public static String totalPorTipo() {
-		a = 	"Mamiferos: "+(Mamifero.cantidadMamiferos()+1)+"\n"+
-			"Aves: "+(Ave.cantidadAves()+2)+"\n"+
-			"Reptiles: "+(Reptil.cantidadReptiles()+1)+"\n"+
-			"Peces: "+(Pez.cantidadPeces()+1)+"\n"+
-			"Anfibios: "+(Anfibio.cantidadAnfibios()+1);
-		print(a)
-		return  a
+		return = 	"Mamiferos: "+(Mamifero.cantidadMamiferos())+"\n"+
+			"Aves: "+(Ave.cantidadAves())+"\n"+
+			"Reptiles: "+(Reptil.cantidadReptiles())+"\n"+
+			"Peces: "+(Pez.cantidadPeces())+"\n"+
+			"Anfibios: "+(Anfibio.cantidadAnfibios());
 	}
 
 	public String getNombre() {
