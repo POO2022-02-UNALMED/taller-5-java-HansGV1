@@ -42,7 +42,6 @@ public class Anfibio extends Animal{
 		
 	}
 	public static int cantidadAnfibios() {
-		numAnfi = numAnfi + 1;
 		return numAnfi;
 	}
 	public boolean isVenenoso() {
