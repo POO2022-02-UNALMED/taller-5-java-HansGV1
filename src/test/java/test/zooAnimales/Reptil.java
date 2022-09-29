@@ -42,7 +42,7 @@ public class Reptil extends Animal{
 		
 	}
 	public static int cantidadReptiles() {
-		numReptil = numReptil + 1
+		numReptil = numReptil + 1;
 		return numReptil;
 	}
 	public String getColorEscamas() {
