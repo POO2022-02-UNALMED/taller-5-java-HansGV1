@@ -36,8 +36,11 @@ public class TestRetornos {
 				"Anfibios: 3";
 		if(Animal.totalPorTipo().equals(comp)) {
 			ok = true;
+			System.out.println(ok);
 		}
-		assertTrue(ok, "Hay un problema en el metodo totalPorTipos");
+		System.out.println(Animal.totalPorTipo());
+		System.out.println(" ");
+		System.out.println(comp);
     }
 	
 	@Test
